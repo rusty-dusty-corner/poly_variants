@@ -13,20 +13,21 @@ Poly Variants is a Rust library for working with polymorphic variants, providing
 
 Add poly_variants to your Cargo.toml dependencies:
 
-```
+```toml
 [dependencies]
 poly_variants = "0.1.0"
-
+```
 Then, in your main.rs or lib.rs, include it with:
 
-
+```rust
 extern crate poly_variants;
+```
 
 Usage
 
 Here’s a basic example of how to use Poly Variants in your Rust project:
 
-rust
+```rust
 
 use poly_variants::PolyVariant;
 
@@ -46,7 +47,7 @@ fn main() {
     println!("{:?}", float_variant);
     println!("{:?}", text_variant);
 }
-
+```
 Advanced Usage
 
 The library supports advanced use cases such as:
